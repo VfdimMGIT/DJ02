@@ -1,0 +1,12 @@
+html
+{% extends 'main/layout.html' %}
+
+{% block title %}Главная страница{% endblock %}
+
+{% block content %}
+    <h1 class="display-4">Добро пожаловать на сайт {{ caption }}!</h1>
+    <p class="lead">Урок номер 2 по изучению фреймворка Django</p>
+    <div class="alert alert-info">
+        Это мой первый проект на Django с использованием Bootstrap!
+    </div>
+{% endblock %}
